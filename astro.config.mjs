@@ -9,13 +9,15 @@ import vue from '@astrojs/vue';
 import tailwind from '@astrojs/tailwind';
 
 // https://astro.build/config
+import compress from "astro-compress";
+
+// https://astro.build/config
+import compressor from "astro-compressor";
+
+// https://astro.build/config
 export default defineConfig({
-	site: 'https://codeinit.pl',
-	integrations: [
-		mdx(),
-		sitemap(),
-		vue({
-			appEntrypoint: '/src/vue.ts',
-		}),
-		tailwind()],
+  site: 'https://codeinit.pl',
+  integrations: [mdx(), sitemap(), vue({
+    appEntrypoint: '/src/vue.ts'
+  }), tailwind(), compress(), compressor()]
 });

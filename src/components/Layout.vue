@@ -4,8 +4,10 @@
 		<head>
 			<title>codeinit.pl</title>
 			<link rel="icon" type="image/png" href="favicon.png"/>
-			<meta name="viewport" content="width=500, initial-scale=1" />
-		</head>
+      <link rel="canonical" href="https://codeinit.pl">
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=500, initial-scale=1" />
+    </head>
 		<body class='overflow-hidden !font-mono' :class='bg'>
 		<div class='w-screen h-screen relative bg-background/[.97]'>
 			<Speck v-for='i in amount' :key='i' :type='i%3' />
