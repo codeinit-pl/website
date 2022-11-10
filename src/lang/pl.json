@@ -1,0 +1,20 @@
+{
+  "main": {
+    "hello": "hej",
+    "name": "nazywam się Mikołaj Misztal",
+    "who": "jestem full-stack developerem z Wrocławia",
+    "what": "zawodowo zajmują się głównie webówką i serwerami,<br /> hobbystycznie gamedevem i różnymi eksperymentami z kodem i rzadziej sprzętem",
+    "plans": "może kiedyś będzie tutaj blog, może coś więcej, zobaczymy",
+    "contact": "kontakt do mnie znajduje poniżej",
+    "contact-md": "kontakt do mnie znajduje się po prawej stronie",
+    "source": "kod źródłowy strony dla ciekawskich",
+    "farewell": "miłego dnia"
+  },
+  "social": {
+    "email": "postaram się odpowiedzieć jak najszybciej, prosze bez spamu ;)",
+    "github": "własne projekty, mam nadzieję wkrótce dodać więcej",
+    "twitter": "głównie informacje o moich przygodach z gamedevem",
+    "itch": "tutaj znajdziesz większość moich gier, zachęcam sprawdzić :)",
+    "linkedin": "nie wchodzę tu zbyt często, jeśli chcesz się skontaktować ślij maila"
+  }
+}

@@ -1,0 +1,52 @@
+---
+import Layout from '../components/Layout.vue';
+import TitleHeader from '../components/Title.vue';
+import SocialLinks from '../components/SocialLinks.vue';
+import Language from '../components/Language.vue';
+import T from '../lang/T.vue';
+---
+
+<Layout client:load>
+	<div class='shadow-2xl shadow-accent/[.03] w-[95vw] sm:w-[75vw] max-w-[1000px]'>
+		<div class='bg-black/30 p-2 pb-1 text-primary/50 text-xs rounded-t-md'>
+			<TitleHeader client:load />
+			<Language client:load class='float-right'/>
+		</div>
+		<div class='bg-black/10 px-2 pt-1 pb-2 rounded-b-md border border-t-0 border-black/30'>
+			<div class='flex flex-col md:flex-row gap-4 my-8'>
+				<div class='grow grid gap-4 text-primary/75'>
+					<p>
+						<T client:only>main.hello</T>,
+					</p>
+					<h1 class='text-2xl'>
+						<T client:only>main.name</T>
+					</h1>
+					<h2 class='text-xl'>
+						<T client:only>main.who</T>
+					</h2>
+					<p>
+						<T client:only>main.what</T>
+					</p>
+					<p>
+						<T client:only>main.plans</T>
+					</p>
+					<p class='inline-block md:hidden' >
+						<T client:only>main.contact</T>
+					</p>
+					<p class='hidden md:inline-block'>
+						<T client:only>main.contact-md</T>
+					</p>
+					<p>
+						<a class='link text-accent no-underline hover:underline inline' href='https://github.com/codeinit-pl/website' target='_blank'>
+							<T client:only>main.source</T>
+						</a>
+					</p>
+					<p>
+						<T client:only>main.farewell</T> ;)
+					</p>
+				</div>
+				<SocialLinks client:load />
+			</div>
+		</div>
+	</div>
+</Layout>

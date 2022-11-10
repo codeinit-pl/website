@@ -1,0 +1,20 @@
+{
+  "main": {
+    "hello": "hello",
+    "name": "my name is Mikołaj Misztal",
+    "who": "i'm a full-stack software developer from Wrocław, Poland",
+    "what": "i mainly do webdev and server stuff for work,<br /> gamedev and other experiments with software and sometimes hardware for fun",
+    "plans": "there might be a blog here one day, maybe something more, we'll see",
+    "contact": "my contact info is below",
+    "contact-md": "my contact info is on the right",
+    "source": "website source code is here if you're curious",
+    "farewell": "have a nice day"
+  },
+  "social": {
+    "email": "i'll answer as quickly as i can, please no spam ;)",
+    "github": "personal projects, hopefully i'll add more soon",
+    "twitter": "mostly self-promo with my gamedev endeavours",
+    "itch": "most my games are hosted here, take a look :)",
+    "linkedin": "i'm rarely there, if you want to link-up email me"
+  }
+}

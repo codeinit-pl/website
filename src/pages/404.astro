@@ -1,0 +1,17 @@
+---
+import Layout from '../components/Layout.vue';
+import { ChevronLeftIcon } from 'vue-tabler-icons';
+---
+
+<Layout client:load>
+	<div class='grid gap-2 text-right'>
+		<div class="alert alert-error shadow-lg w-auto">
+			<div>
+				<span>error 404: page not found</span>
+			</div>
+		</div>
+		<a class='link text-secondary px-4 no-underline hover:underline' href='/'>
+			<ChevronLeftIcon class='inline' size='16' stroke-width='2'/>back
+		</a>
+	</div>
+</Layout>
