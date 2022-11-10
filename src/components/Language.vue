@@ -28,6 +28,6 @@
 
 <style scoped>
 img.flag{
-	@apply opacity-10 hover:opacity-50 cursor-pointer h-[12px];
+	@apply opacity-25 hover:opacity-80 cursor-pointer h-[12px];
 }
 </style>
