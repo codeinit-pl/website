@@ -1,4 +1,4 @@
-## hello there :wave
+## hello there!
 ### this is the sourcecode of https://codeinit.pl
 
 ### usage:
@@ -10,7 +10,7 @@ you'll need `node` with `npm`, if everything goes ok the site should be at http:
 
 ### tools used:
 
-- [Astro](https://astro.build/) - wanted to try it, liked it, it's really cool :smile
+- [Astro](https://astro.build/) - wanted to try it, liked it, it's really cool :)
 - [TailwindCSS](https://tailwindcss.com/)
 - [DaisyUI](https://daisyui.com/)
 - [VueJS](https://vuejs.org/)
