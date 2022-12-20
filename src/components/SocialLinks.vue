@@ -14,7 +14,7 @@
 
 <script setup lang="ts">
 	import { onMounted, shallowRef } from 'vue';
-	import {AtIcon, BrandGithubIcon, BrandTwitterIcon, BrandLinkedinIcon} from 'vue-tabler-icons';
+	import {AtIcon, BrandGithubIcon, BrandTwitterIcon, BrandMastodonIcon, BrandLinkedinIcon} from 'vue-tabler-icons';
 	import Itch from './img/itch-dot-io.svg';
 
 	const items = shallowRef<Array<{
@@ -40,6 +40,11 @@
 				icon:BrandTwitterIcon,
 				label: 'twitter',
 				url: 'https://twitter.com/mikouaji',
+			},
+			{
+				icon:BrandMastodonIcon,
+				label: 'mastodon',
+				url: 'https://mastodon.gamedev.place/@mikouaji',
 			},
 			{
 				img:Itch,
